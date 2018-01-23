@@ -7,14 +7,14 @@
         <div class="mbr-section__container mbr-section__container--isolated container" style="padding-top: 93px; padding-bottom: 93px;">
             <div class="row">
                 <div class="mbr-box mbr-box--fixed mbr-box--adapted">
-                    <div class="mbr-box__magnet mbr-box__magnet--top-right mbr-section__left col-sm-6 image-size" style="width: 50%;">
-                        <figure class="mbr-figure mbr-figure--adapted mbr-figure--caption-inside-bottom mbr-figure--full-width"><?php the_post_thubnails('thumbnail',['class'=>'mbr-figure__img']); ?></figure>
+                    <div class="mbr-box__magnet mbr-box__magnet--top-right mbr-section__left col-sm-6 image-size" >
+                        <figure class="mbr-figure mbr-figure--adapted mbr-figure--caption-inside-bottom "><?php the_post_thumbnail('thumbnail',['class'=>'mbr-figure__img']); ?></figure>
                     </div>
                     <div class="mbr-box__magnet mbr-class-mbr-box__magnet--center-left col-sm-6 content-size mbr-section__right">
                         <div class="mbr-section__container mbr-section__container--middle">
                             <div class="mbr-header mbr-header--auto-align mbr-header--wysiwyg">
                                 <h3 class="mbr-header__text"><?php echo the_title(); ?></h3>
-                                <p class="mbr-header__subtext">By <?php the_author(); ?> posted on<?php the_date(); ?></p>
+                                <p class="mbr-header__subtext">Por <?php the_author(); ?> el <?php the_date(); ?></p>
                                 
                             </div>
                         </div>

@@ -32,8 +32,20 @@
                 <div class="mbr-navbar__column mbr-navbar__menu">
                     <nav class="mbr-navbar__menu-box mbr-navbar__menu-box--inline-right">
                         <div class="mbr-navbar__column">
-                            <ul class="mbr-navbar__items mbr-navbar__items--right float-left mbr-buttons mbr-buttons--freeze mbr-buttons--right btn-decorator mbr-buttons--active"><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="https://mobirise.com">HOME</a></li><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="https://mobirise.com">ABOUT</a></li><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="https://mobirise.com">CONTACT</a></li></ul>                            
-                            <ul class="mbr-navbar__items mbr-navbar__items--right mbr-buttons mbr-buttons--freeze mbr-buttons--right btn-inverse mbr-buttons--active"><li class="mbr-navbar__item"><a class="mbr-buttons__btn btn btn-danger" href="https://mobirise.com">DOWNLOAD</a></li></ul>
+<?php
+wp_nav_menu( array(
+    'theme_location'    => 'primary',
+    'depth'             => 2,
+    'container'         => '',
+    'container_class'   => 'mbr-buttons__link btn text-white',
+    'container_id'      => '',
+    'menu_class'        => 'mbr-navbar__items mbr-navbar__items--right float-left mbr-buttons mbr-buttons--freeze mbr-buttons--right btn-decorator mbr-buttons--active',
+    'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
+    'walker'            => new WP_Bootstrap_Navwalker(),
+) );
+
+?>
+
                         </div>
                     </nav>
                 </div>
