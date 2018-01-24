@@ -1150,7 +1150,7 @@ html {
   margin: 0;
 }
 .mbr-header__subtext {
-  color: #777;
+  color: #2d2c2c;
   font-size: 14px;
   font-style: italic;
   letter-spacing: 1px;
@@ -1415,7 +1415,7 @@ html {
   }
 }
 .mbr-article {
-  color: #777;
+  color: #a8a6a6;
   font-size: 17px;
   line-height: 27px;
   text-align: left;
