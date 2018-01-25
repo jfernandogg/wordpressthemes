@@ -29,6 +29,7 @@ Fax: +1 (0) 000 0000 002</p>
   <script src="<?php bloginfo('template_directory'); ?>/assets/web/assets/jquery/jquery.min.js"></script>
   <script src="<?php bloginfo('template_directory'); ?>/assets/bootstrap/js/bootstrap.min.js"></script>
   <script src="<?php bloginfo('template_directory'); ?>/assets/smooth-scroll/smooth-scroll.js"></script>
+  <script src="<?php bloginfo('template_directory'); ?>/assets/jquery-mb-ytplayer/jquery.mb.ytplayer.min.js"></script>
   <script src="<?php bloginfo('template_directory'); ?>/assets/mobirise/js/script.js"></script>
   
   

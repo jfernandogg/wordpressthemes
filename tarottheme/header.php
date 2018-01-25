@@ -11,10 +11,9 @@
   <title><?php bloginfo('name'); ?></title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:700,400&subset=cyrillic,latin,greek,vietnamese">
   <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="<?php bloginfo('template_directory')?>/assets/animate.css/animate.min.css">
   <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/mobirise/css/style.css">
   <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/mobirise/css/mbr-additional.css" type="text/css">
-  
-  
   
 </head>
 <body>
