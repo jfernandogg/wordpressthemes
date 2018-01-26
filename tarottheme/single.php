@@ -9,6 +9,9 @@
                     <h3 class="mbr-header__text"><?php echo the_title(); ?></h3>
                     <p class="mbr-header__subtext">By <?php the_author(); ?> posted <?php the_date(); ?></p>
                 </div>
+                    <div class="mbr-box__magnet mbr-box__magnet--top-center mbr-section__left col-sm-6 image-size" >
+                        <figure class="mbr-figure mbr-figure--adapted mbr-figure--caption-inside-bottom "><?php the_post_thumbnail('thumbnail',['class'=>'mbr-figure__img']); ?></figure>
+                    </div>
             </div>
         </div>
     </section>

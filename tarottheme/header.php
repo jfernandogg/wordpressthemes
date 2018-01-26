@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="<?php bloginfo('template_directory')?>/assets/animate.css/animate.min.css">
   <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/mobirise/css/style.css">
   <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/mobirise/css/mbr-additional.css" type="text/css">
-  
+  <?php wp_head(); ?> 
 </head>
 <body>
 <section class="mbr-navbar mbr-navbar--freeze mbr-navbar--absolute mbr-navbar--sticky mbr-navbar--auto-collapse" id="ext_menu-p" data-rv-view="15">
