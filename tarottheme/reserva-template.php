@@ -8,13 +8,13 @@
 <?php if(have_posts()): ?>
   <?php while(have_posts()) : the_post(); ?>
 
-<section class="engine"><a href="https://mobirise.co/l">free bootstrap theme</a></section><section class="mbr-box mbr-section mbr-section--relative mbr-section--fixed-size mbr-section--full-height mbr-section--bg-adapted" id="header2-j" data-bg-video="https://www.youtube.com/embed/D-sGeuoJW8o?rel=0&amp;amp;showinfo=1&amp;autoplay=1&amp;loop=1" data-rv-view="2">
+<section class="engine"><a href="https://mobirise.co/l">free bootstrap theme</a></section><section class="mbr-box mbr-section mbr-section--relative mbr-section--fixed-size mbr-section--full-height mbr-section--bg-adapted" id="header2-j" data-bg-video="https://www.youtube.com/embed/Ig7v_zOpGo4?rel=0&amp;amp;showinfo=1&amp;autoplay=1&amp;loop=1" data-rv-view="2">
     <div class="mbr-box__magnet mbr-box__magnet--sm-padding mbr-box__magnet--center-left mbr-after-navbar">
         
         <div class="mbr-box__container mbr-section__container container">
             <div class="mbr-box mbr-box--stretched"><div class="mbr-box__magnet mbr-box__magnet--center-left">
-                <div class="row"><div class=" col-sm-6 col-sm-offset-6">
-                    <div class="mbr-hero animated fadeInUp">
+                <div class="row"><div class="col-sm-6 col-sm-offset-6">
+                    <div class="mbr-hero animated fadeInUp ">
                         <h1 class="mbr-hero__text"><?php echo the_title(); ?></h1>
                         <p class="mbr-hero__subtext"><?php the_content(); ?></p>
                     </div>
@@ -25,7 +25,6 @@
         
     </div>
 </section>
-
 
   <?php endwhile; ?>
 <?php else : ?>
